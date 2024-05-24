@@ -2025,6 +2025,21 @@
   }
 }
 
+.edu-tas-beginner {
+  font-family: "Edu TAS Beginner", cursive;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-size: larger !important;
+}
+
+.besley {
+  font-family: "Besley", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
 #back-to-top {
   display: none;
   position: fixed;
