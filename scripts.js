@@ -89,6 +89,7 @@ const dropDowns = Array.from(document.querySelectorAll('#cs-navigation .cs-dropd
 
     new GalleryFilter();
 
+// Custom Javascript for the back to top button
 let backToTopButton = document.getElementById("back-to-top");
 
 // When the user scrolls down 20px from the top of the document, show the button
