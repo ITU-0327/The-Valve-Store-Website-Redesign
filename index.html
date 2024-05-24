@@ -1,0 +1,1226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Valve Store</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="global.css">
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <!-- ============================================ -->
+    <!--                 Navigation                   -->
+    <!-- ============================================ -->
+    <header id="cs-navigation">
+        <div class="cs-container">
+            <!--Nav Logo-->
+            <!--Logo is turned white in the css with a filter on dark mode-->
+            <a href="" class="cs-logo" aria-label="back to home">
+                <img src="images/the-valve-store-logo.webp" alt="The Valve Store" width="185" height="50" aria-hidden="true" decoding="async">
+            </a>
+            <!--Navigation List-->
+            <nav class="cs-nav" role="navigation">
+                <!--Mobile Nav Toggle-->
+                <button class="cs-toggle" aria-label="mobile menu toggle">
+                    <div class="cs-box" aria-hidden="true">
+                        <span class="cs-line cs-line1" aria-hidden="true"></span>
+                        <span class="cs-line cs-line2" aria-hidden="true"></span>
+                        <span class="cs-line cs-line3" aria-hidden="true"></span>
+                    </div>
+                </button>
+                <!-- We need a wrapper div so we can set a fixed height on the cs-ul in case the nav list gets too long from too many dropdowns being opened and needs to have an overflow scroll. This wrapper acts as the background so it can go the full height of the screen and not cut off any overflowing nav items while the cs-ul stops short of the bottom of the screen, which keeps all nav items in view no matter how mnay there are-->
+                <div class="cs-ul-wrapper">
+                    <ul id="cs-expanded" class="cs-ul" aria-expanded="false">
+                        <li class="cs-li">
+                            <a href="" class="cs-li-link cs-active">
+                                Home
+                            </a>
+                        </li>
+                        <!--Copy and paste this cs-dropdown list item and replace any .cs-li with this cs-dropdown group to make a new dropdown and it will work-->
+                        <li class="cs-li cs-dropdown" tabindex="0">
+                            <span class="cs-li-link">
+                                Products
+                                <img class="cs-drop-icon" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons/down-gold.svg" alt="dropdown icon" width="15" height="15" decoding="async" aria-hidden="true">
+                            </span>
+                            <ul class="cs-drop-ul">
+                                <li class="cs-drop-li">
+                                    <a href="" class="cs-li-link cs-drop-link">Dual Triode Tubes</a>
+                                </li>
+                                <li class="cs-drop-li">
+                                    <a href="" class="cs-li-link cs-drop-link">Power Tubes</a>
+                                </li>
+                                <li class="cs-drop-li">
+                                    <a href="" class="cs-li-link cs-drop-link">Specialty Tubes</a>
+                                </li>
+                                <li class="cs-drop-li">
+                                    <a href="" class="cs-li-link cs-drop-link">Accessories and Parts</a>
+                                </li>
+                                <li class="cs-drop-li">
+                                    <a href="" class="cs-li-link cs-drop-link">Other Tubes</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="cs-li">
+                            <a href="" class="cs-li-link">
+                                About Us
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+            <div class="cs-contact-group">
+                <a href="tel:+84 1985 33 999" class="cs-phone">
+                    <img class="cs-phone-icon" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons/phone-1a.svg" alt="logo" width="24" height="24" aria-hidden="true" decoding="async">
+                    0482 176 767
+                </a>
+                <div class="cs-social">
+                    <a href="" class="cs-social-link">
+                        <img class="cs-social-icon" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Icons/facebook-1a.svg" alt="logo" width="12" height="12" aria-hidden="true" decoding="async">
+                    </a>
+                    <a href="" class="cs-social-link">
+                        <img class="cs-social-icon" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Icons/twitter-1a.svg" alt="logo" width="12" height="12" aria-hidden="true" decoding="async">
+                    </a>
+                    <a href="" class="cs-social-link">
+                        <img class="cs-social-icon" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Icons/instagram1a.svg" alt="logo" width="12" height="12" aria-hidden="true" decoding="async">
+                    </a>
+                    <a href="" class="cs-social-link">
+                        <img class="cs-social-icon" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Icons/youtube1a.svg" alt="logo" width="12" height="12" aria-hidden="true" decoding="async">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- ============================================ -->
+    <!--                    Hero                      -->
+    <!-- ============================================ -->
+    <section id="hero-1785">
+        <div class="cs-container">
+            <div class="cs-content">
+                <span class="cs-topper">Best Tubes Of The City For Musicians</span>
+                <h1 class="cs-title">Elevate Your Sound with Premium Vacuum Tubes</h1>
+                <p class="cs-text">
+                    Explore the finest collection of vintage and modern tubes for audiophiles and musicians.
+                </p>
+                <div class="cs-button-group">
+                    <a href="" class="cs-button-solid cs-button1">Read More</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Background Image -->
+        <picture class="cs-background">
+            <source media="(max-width: 600px)" srcset="images/hero-background.webp">
+            <source media="(min-width: 601px)" srcset="images/hero-background.webp">
+            <img loading="lazy" decoding="async" src="images/hero-background.webp" alt="field" width="1920" height="1200" aria-hidden="true">
+        </picture>
+
+        <img class="cs-graphic" src="images/white-splatter2.svg" alt="graphic" height="161" width="1920" loading="lazy" decoding="async" >
+        <!--This is a dark version. Download the image and change the fill color to match the color of the section background below it-->
+        <img class="cs-graphic cs-graphic-dark" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Graphics/dark-mode-splatter2.svg" alt="graphic" height="161" width="1920" loading="lazy" decoding="async" >
+    </section>
+                                
+    
+    <!-- ============================================ -->
+    <!--                  Collection                  -->
+    <!-- ============================================ -->
+
+    <!--
+        To add a 4th or 5th collection or more, copy and paste the cs-button and change it's data-filter to the next number, in this case it's 4. Do the same to the cs-listing and its data-category number. And that's it!
+    -->
+
+    <section id="collection-1602">
+        <div class="cs-container">
+            <div class="cs-content">
+                <h2 class="cs-title">Best Selling</h2>
+                <div class="cs-button-group">
+                    <button class="cs-button" data-filter="one">
+                        New Arrival
+                    </button>
+                    <button class="cs-button" data-filter="two">
+                        Top Rating
+                    </button>
+                    <button class="cs-button" data-filter="three">
+                        Best Seller
+                    </button>
+                </div>
+            </div>
+            <div class="cs-listing-wrapper">
+                <!--Listing 1-->
+                <div class="cs-listing" data-category="one">
+                    <div class="cs-item">
+                        <a href="" class="cs-link">
+                            <div class="cs-picture-group">
+                                <picture class="cs-picture">
+                                    <source media="(max-width: 600px)"
+                                            srcset="images/electro-harmonix-12ax7.webp">
+                                    <source media="(min-width: 601px)"
+                                            srcset="images/electro-harmonix-12ax7.webp">
+                                    <img loading="lazy" decoding="async"
+                                            src="images/electro-harmonix-12ax7.webp"
+                                            alt="gallery" width="305" height="400">
+                                </picture>
+                                <span class="cs-offer">-50%</span>
+                            </div>
+                            <div class="cs-details">
+                                <span class="cs-category">New product</span>
+                                <h3 class="cs-name">ELECTRO HARMONIX 12AX7</h3>
+                                <div class="cs-actions">
+                                    <div class="cs-flex">
+                                        <span class="cs-price">$30.00</span>
+                                        <span class="cs-was-price">$60.00</span>
+                                        <div class="cs-stars">
+                                            <img class="cs-star"
+                                                    src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/review-star.svg"
+                                                    alt="star" height="24" width="24" loading="lazy" decoding="async">
+                                            <img class="cs-star"
+                                                    src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/review-star.svg"
+                                                    alt="star" height="24" width="24" loading="lazy" decoding="async">
+                                            <img class="cs-star"
+                                                    src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/review-star.svg"
+                                                    alt="star" height="24" width="24" loading="lazy" decoding="async">
+                                            <img class="cs-star"
+                                                    src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/review-star.svg"
+                                                    alt="star" height="24" width="24" loading="lazy" decoding="async">
+                                            <img class="cs-star"
+                                                    src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/review-star.svg"
+                                                    alt="star" height="24" width="24" loading="lazy" decoding="async">
+                                        </div>
+                                    </div>
+                                    <button class="cs-buy">
+                                        <img class="cs-basket"
+                                                src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Icons/ecomm-bag-icon.svg"
+                                                alt="buy" height="24" width="24" loading="lazy" decoding="async">
+                                    </button>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="cs-item">
+                        <a href="" class="cs-link">
+                            <div class="cs-picture-group">
+                                <picture class="cs-picture">
+                                    <source media="(max-width: 600px)"
+                                            srcset="images/tung-sol-12ax7.webp">
+                                    <source media="(min-width: 601px)"
+                                            srcset="images/tung-sol-12ax7.webp">
+                                    <img loading="lazy" decoding="async"
+                                            src="images/tung-sol-12ax7.webp"
+                                            alt="gallery" width="305" height="400">
+                                </picture>
+                                <span class="cs-offer">-25%</span>
+                            </div>
+                            <div class="cs-details">
+                                <span class="cs-category">New product</span>
+                                <h3 class="cs-name">TUNG SOL 12AX7</h3>
+                                <div class="cs-actions">
+                                    <div class="cs-flex">
+                                        <span class="cs-price">$55.00</span>
+                                        <span class="cs-was-price">$75.00</span>
+                                        <div class="cs-stars">
+                                            <img class="cs-star"
+                                                    src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/review-star.svg"
+                                                    alt="star" height="24" width="24" loading="lazy" decoding="async">
+                                            <img class="cs-star"
+                                                    src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/review-star.svg"
+                                                    alt="star" height="24" width="24" loading="lazy" decoding="async">
+                                            <img class="cs-star"
+                                                    src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/review-star.svg"
+                                                    alt="star" height="24" width="24" loading="lazy" decoding="async">
+                                            <img class="cs-star"
+                                                    src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/review-star.svg"
+                                                    alt="star" height="24" width="24" loading="lazy" decoding="async">
+                                            <img class="cs-star"
+                                                    src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/review-star.svg"
+                                                    alt="star" height="24" width="24" loading="lazy" decoding="async">
+                                        </div>
+                                    </div>
+                                    <button class="cs-buy">
+                                        <img src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Icons/ecomm-bag-icon.svg"
+                                                alt="buy" height="24" width="24" loading="lazy" decoding="async">
+                                    </button>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="cs-item">
+                        <a href="" class="cs-link">
+                            <div class="cs-picture-group">
+                                <picture class="cs-picture">
+                                    <source media="(max-width: 600px)"
+                                            srcset="images/genalex-gold-lion-12au7-ecc82.webp">
+                                    <source media="(min-width: 601px)"
+                                            srcset="images/genalex-gold-lion-12au7-ecc82.webp">
+                                    <img loading="lazy" decoding="async"
+                                            src="images/genalex-gold-lion-12au7-ecc82.webp"
+                                            alt="gallery" width="305" height="400">
+                                </picture>
+                                <span class="cs-offer">-30%</span>
+                            </div>
+                            <div class="cs-details">
+                                <span class="cs-category">New product</span>
+                                <h3 class="cs-name">Genalex Gold Lion 12AU7 ECC82</h3>
+                                <div class="cs-actions">
+                                    <div class="cs-flex">
+                                        <span class="cs-price">$85.50</span>
+                                        <span class="cs-was-price">$125.00</span>
+                                        <div class="cs-stars">
+                                            <img class="cs-star"
+                                                    src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/review-star.svg"
+                                                    alt="star" height="24" width="24" loading="lazy" decoding="async">
+                                            <img class="cs-star"
+                                                    src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/review-star.svg"
+                                                    alt="star" height="24" width="24" loading="lazy" decoding="async">
+                                            <img class="cs-star"
+                                                    src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/review-star.svg"
+                                                    alt="star" height="24" width="24" loading="lazy" decoding="async">
+                                            <img class="cs-star"
+                                                    src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/review-star.svg"
+                                                    alt="star" height="24" width="24" loading="lazy" decoding="async">
+                                            <img class="cs-star"
+                                                    src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/review-star.svg"
+                                                    alt="star" height="24" width="24" loading="lazy" decoding="async">
+                                        </div>
+                                    </div>
+                                    <button class="cs-buy">
+                                        <img src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Icons/ecomm-bag-icon.svg"
+                                                alt="buy" height="24" width="24" loading="lazy" decoding="async">
+                                    </button>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="cs-item">
+                        <a href="" class="cs-link">
+                            <div class="cs-picture-group">
+                                <picture class="cs-picture">
+                                    <source media="(max-width: 600px)"
+                                            srcset="images/genalex-gold-lion-12at7-ecc81-b739.webp">
+                                    <source media="(min-width: 601px)"
+                                            srcset="images/genalex-gold-lion-12at7-ecc81-b739.webp">
+                                    <img loading="lazy" decoding="async"
+                                            src="images/genalex-gold-lion-12at7-ecc81-b739.webp"
+                                            alt="gallery" width="305" height="400">
+                                </picture>
+                            </div>
+                            <div class="cs-details">
+                                <span class="cs-category">New product</span>
+                                <h3 class="cs-name">Genalex Gold Lion 12AT7 ECC81 B739</h3>
+                                <div class="cs-actions">
+                                    <div class="cs-flex">
+                                        <span class="cs-price">$80.00</span>
+                                        <div class="cs-stars">
+                                            <img class="cs-star"
+                                                    src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/review-star.svg"
+                                                    alt="star" height="24" width="24" loading="lazy" decoding="async">
+                                            <img class="cs-star"
+                                                    src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/review-star.svg"
+                                                    alt="star" height="24" width="24" loading="lazy" decoding="async">
+                                            <img class="cs-star"
+                                                    src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/review-star.svg"
+                                                    alt="star" height="24" width="24" loading="lazy" decoding="async">
+                                            <img class="cs-star"
+                                                    src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/review-star.svg"
+                                                    alt="star" height="24" width="24" loading="lazy" decoding="async">
+                                            <img class="cs-star"
+                                                    src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/review-star.svg"
+                                                    alt="star" height="24" width="24" loading="lazy" decoding="async">
+                                        </div>
+                                    </div>
+                                    <button class="cs-buy">
+                                        <img src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Icons/ecomm-bag-icon.svg"
+                                                alt="buy" height="24" width="24" loading="lazy" decoding="async">
+                                    </button>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="cs-item">
+                        <a href="" class="cs-link">
+                            <div class="cs-picture-group">
+                                <picture class="cs-picture">
+                                    <source media="(max-width: 600px)"
+                                            srcset="images/jj-ecc81-12at7.webp">
+                                    <source media="(min-width: 601px)"
+                                            srcset="images/jj-ecc81-12at7.webp">
+                                    <img loading="lazy" decoding="async"
+                                            src="images/jj-ecc81-12at7.webp"
+                                            alt="gallery" width="305" height="400">
+                                </picture>
+                            </div>
+                            <div class="cs-details">
+                                <span class="cs-category">New product</span>
+                                <h3 class="cs-name">JJ ELECTRONIC ECC81 12AT7</h3>
+                                <div class="cs-actions">
+                                    <div class="cs-flex">
+                                        <span class="cs-price">$50.00</span>
+                                        <div class="cs-stars">
+                                            <img class="cs-star"
+                                                    src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/review-star.svg"
+                                                    alt="star" height="24" width="24" loading="lazy" decoding="async">
+                                            <img class="cs-star"
+                                                    src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/review-star.svg"
+                                                    alt="star" height="24" width="24" loading="lazy" decoding="async">
+                                            <img class="cs-star"
+                                                    src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/review-star.svg"
+                                                    alt="star" height="24" width="24" loading="lazy" decoding="async">
+                                            <img class="cs-star"
+                                                    src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/review-star.svg"
+                                                    alt="star" height="24" width="24" loading="lazy" decoding="async">
+                                        </div>
+                                    </div>
+                                    <button class="cs-buy">
+                                        <img src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Icons/ecomm-bag-icon.svg"
+                                                alt="buy" height="24" width="24" loading="lazy" decoding="async">
+                                    </button>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="cs-item">
+                        <a href="" class="cs-link">
+                            <div class="cs-picture-group">
+                                <picture class="cs-picture">
+                                    <source media="(max-width: 600px)"
+                                            srcset="images/mullard-12at7-ecc81.webp">
+                                    <source media="(min-width: 601px)"
+                                            srcset="images/mullard-12at7-ecc81.webp">
+                                    <img loading="lazy" decoding="async"
+                                            src="images/mullard-12at7-ecc81.webp"
+                                            alt="gallery" width="305" height="400">
+                                </picture>
+                                <span class="cs-offer">-3%</span>
+                            </div>
+                            <div class="cs-details">
+                                <span class="cs-category">New product</span>
+                                <h3 class="cs-name">MULLARD 12AT7 ECC81</h3>
+                                <div class="cs-actions">
+                                    <div class="cs-flex">
+                                        <span class="cs-price">$90.00</span>
+                                        <span class="cs-was-price">$92.00</span>
+                                        <div class="cs-stars">
+                                            <img class="cs-star"
+                                                    src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/review-star.svg"
+                                                    alt="star" height="24" width="24" loading="lazy" decoding="async">
+                                            <img class="cs-star"
+                                                    src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/review-star.svg"
+                                                    alt="star" height="24" width="24" loading="lazy" decoding="async">
+                                            <img class="cs-star"
+                                                    src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/review-star.svg"
+                                                    alt="star" height="24" width="24" loading="lazy" decoding="async">
+                                            <img class="cs-star"
+                                                    src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/review-star.svg"
+                                                    alt="star" height="24" width="24" loading="lazy" decoding="async">
+                                            <img class="cs-star"
+                                                    src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/review-star.svg"
+                                                    alt="star" height="24" width="24" loading="lazy" decoding="async">
+                                        </div>
+                                    </div>
+                                    <button class="cs-buy">
+                                        <img src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Icons/ecomm-bag-icon.svg"
+                                                alt="buy" height="24" width="24" loading="lazy" decoding="async">
+                                    </button>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <!--Listing 2-->
+                <div class="cs-listing cs-hidden" data-category="two">
+                    <div class="cs-item">
+                        <a href="" class="cs-link">
+                            <div class="cs-picture-group">
+                                <picture class="cs-picture">
+                                    <source media="(max-width: 600px)"
+                                            srcset="images/tung-sol-12ax7.webp">
+                                    <source media="(min-width: 601px)"
+                                            srcset="images/tung-sol-12ax7.webp">
+                                    <img loading="lazy" decoding="async"
+                                            src="images/tung-sol-12ax7.webp"
+                                            alt="gallery" width="305" height="400">
+                                </picture>
+                                <span class="cs-offer">-25%</span>
+                            </div>
+                            <div class="cs-details">
+                                <span class="cs-category">Top Rating</span>
+                                <h3 class="cs-name">TUNG SOL 12AX7</h3>
+                                <div class="cs-actions">
+                                    <div class="cs-flex">
+                                        <span class="cs-price">$55.00</span>
+                                        <span class="cs-was-price">$75.00</span>
+                                        <div class="cs-stars">
+                                            <img class="cs-star"
+                                                    src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/review-star.svg"
+                                                    alt="star" height="24" width="24" loading="lazy" decoding="async">
+                                            <img class="cs-star"
+                                                    src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/review-star.svg"
+                                                    alt="star" height="24" width="24" loading="lazy" decoding="async">
+                                            <img class="cs-star"
+                                                    src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/review-star.svg"
+                                                    alt="star" height="24" width="24" loading="lazy" decoding="async">
+                                            <img class="cs-star"
+                                                    src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/review-star.svg"
+                                                    alt="star" height="24" width="24" loading="lazy" decoding="async">
+                                            <img class="cs-star"
+                                                    src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/review-star.svg"
+                                                    alt="star" height="24" width="24" loading="lazy" decoding="async">
+                                        </div>
+                                    </div>
+                                    <button class="cs-buy">
+                                        <img src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Icons/ecomm-bag-icon.svg"
+                                                alt="buy" height="24" width="24" loading="lazy" decoding="async">
+                                    </button>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="cs-item">
+                        <a href="" class="cs-link">
+                            <div class="cs-picture-group">
+                                <picture class="cs-picture">
+                                    <source media="(max-width: 600px)"
+                                            srcset="images/mullard-12at7-ecc81.webp">
+                                    <source media="(min-width: 601px)"
+                                            srcset="images/mullard-12at7-ecc81.webp">
+                                    <img loading="lazy" decoding="async"
+                                            src="images/mullard-12at7-ecc81.webp"
+                                            alt="gallery" width="305" height="400">
+                                </picture>
+                                <span class="cs-offer">-3%</span>
+                            </div>
+                            <div class="cs-details">
+                                <span class="cs-category">Top Rating</span>
+                                <h3 class="cs-name">MULLARD 12AT7 ECC81</h3>
+                                <div class="cs-actions">
+                                    <div class="cs-flex">
+                                        <span class="cs-price">$90.00</span>
+                                        <span class="cs-was-price">$92.00</span>
+                                        <div class="cs-stars">
+                                            <img class="cs-star"
+                                                    src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/review-star.svg"
+                                                    alt="star" height="24" width="24" loading="lazy" decoding="async">
+                                            <img class="cs-star"
+                                                    src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/review-star.svg"
+                                                    alt="star" height="24" width="24" loading="lazy" decoding="async">
+                                            <img class="cs-star"
+                                                    src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/review-star.svg"
+                                                    alt="star" height="24" width="24" loading="lazy" decoding="async">
+                                            <img class="cs-star"
+                                                    src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/review-star.svg"
+                                                    alt="star" height="24" width="24" loading="lazy" decoding="async">
+                                            <img class="cs-star"
+                                                    src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/review-star.svg"
+                                                    alt="star" height="24" width="24" loading="lazy" decoding="async">
+                                        </div>
+                                    </div>
+                                    <button class="cs-buy">
+                                        <img src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Icons/ecomm-bag-icon.svg"
+                                                alt="buy" height="24" width="24" loading="lazy" decoding="async">
+                                    </button>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="cs-item">
+                        <a href="" class="cs-link">
+                            <div class="cs-picture-group">
+                                <picture class="cs-picture">
+                                    <source media="(max-width: 600px)"
+                                            srcset="images/genalex-gold-lion-12au7-ecc82.webp">
+                                    <source media="(min-width: 601px)"
+                                            srcset="images/genalex-gold-lion-12au7-ecc82.webp">
+                                    <img loading="lazy" decoding="async"
+                                            src="images/genalex-gold-lion-12au7-ecc82.webp"
+                                            alt="gallery" width="305" height="400">
+                                </picture>
+                                <span class="cs-offer">-30%</span>
+                            </div>
+                            <div class="cs-details">
+                                <span class="cs-category">Top Rating</span>
+                                <h3 class="cs-name">Genalex Gold Lion 12AU7 ECC82</h3>
+                                <div class="cs-actions">
+                                    <div class="cs-flex">
+                                        <span class="cs-price">$85.50</span>
+                                        <span class="cs-was-price">$125.00</span>
+                                        <div class="cs-stars">
+                                            <img class="cs-star"
+                                                    src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/review-star.svg"
+                                                    alt="star" height="24" width="24" loading="lazy" decoding="async">
+                                            <img class="cs-star"
+                                                    src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/review-star.svg"
+                                                    alt="star" height="24" width="24" loading="lazy" decoding="async">
+                                            <img class="cs-star"
+                                                    src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/review-star.svg"
+                                                    alt="star" height="24" width="24" loading="lazy" decoding="async">
+                                            <img class="cs-star"
+                                                    src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/review-star.svg"
+                                                    alt="star" height="24" width="24" loading="lazy" decoding="async">
+                                            <img class="cs-star"
+                                                    src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/review-star.svg"
+                                                    alt="star" height="24" width="24" loading="lazy" decoding="async">
+                                        </div>
+                                    </div>
+                                    <button class="cs-buy">
+                                        <img src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Icons/ecomm-bag-icon.svg"
+                                                alt="buy" height="24" width="24" loading="lazy" decoding="async">
+                                    </button>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="cs-item">
+                        <a href="" class="cs-link">
+                            <div class="cs-picture-group">
+                                <picture class="cs-picture">
+                                    <source media="(max-width: 600px)"
+                                            srcset="images/electro-harmonix-12ax7.webp">
+                                    <source media="(min-width: 601px)"
+                                            srcset="images/electro-harmonix-12ax7.webp">
+                                    <img loading="lazy" decoding="async"
+                                            src="images/electro-harmonix-12ax7.webp"
+                                            alt="gallery" width="305" height="400">
+                                </picture>
+                                <span class="cs-offer">-50%</span>
+                            </div>
+                            <div class="cs-details">
+                                <span class="cs-category">Top Rating</span>
+                                <h3 class="cs-name">ELECTRO HARMONIX 12AX7</h3>
+                                <div class="cs-actions">
+                                    <div class="cs-flex">
+                                        <span class="cs-price">$30.00</span>
+                                        <span class="cs-was-price">$60.00</span>
+                                        <div class="cs-stars">
+                                            <img class="cs-star"
+                                                    src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/review-star.svg"
+                                                    alt="star" height="24" width="24" loading="lazy" decoding="async">
+                                            <img class="cs-star"
+                                                    src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/review-star.svg"
+                                                    alt="star" height="24" width="24" loading="lazy" decoding="async">
+                                            <img class="cs-star"
+                                                    src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/review-star.svg"
+                                                    alt="star" height="24" width="24" loading="lazy" decoding="async">
+                                            <img class="cs-star"
+                                                    src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/review-star.svg"
+                                                    alt="star" height="24" width="24" loading="lazy" decoding="async">
+                                            <img class="cs-star"
+                                                    src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/review-star.svg"
+                                                    alt="star" height="24" width="24" loading="lazy" decoding="async">
+                                        </div>
+                                    </div>
+                                    <button class="cs-buy">
+                                        <img class="cs-basket"
+                                                src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Icons/ecomm-bag-icon.svg"
+                                                alt="buy" height="24" width="24" loading="lazy" decoding="async">
+                                    </button>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="cs-item">
+                        <a href="" class="cs-link">
+                            <div class="cs-picture-group">
+                                <picture class="cs-picture">
+                                    <source media="(max-width: 600px)"
+                                            srcset="images/genalex-gold-lion-12at7-ecc81-b739.webp">
+                                    <source media="(min-width: 601px)"
+                                            srcset="images/genalex-gold-lion-12at7-ecc81-b739.webp">
+                                    <img loading="lazy" decoding="async"
+                                            src="images/genalex-gold-lion-12at7-ecc81-b739.webp"
+                                            alt="gallery" width="305" height="400">
+                                </picture>
+                            </div>
+                            <div class="cs-details">
+                                <span class="cs-category">Top Rating</span>
+                                <h3 class="cs-name">Genalex Gold Lion 12AT7 ECC81 B739</h3>
+                                <div class="cs-actions">
+                                    <div class="cs-flex">
+                                        <span class="cs-price">$80.00</span>
+                                        <div class="cs-stars">
+                                            <img class="cs-star"
+                                                    src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/review-star.svg"
+                                                    alt="star" height="24" width="24" loading="lazy" decoding="async">
+                                            <img class="cs-star"
+                                                    src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/review-star.svg"
+                                                    alt="star" height="24" width="24" loading="lazy" decoding="async">
+                                            <img class="cs-star"
+                                                    src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/review-star.svg"
+                                                    alt="star" height="24" width="24" loading="lazy" decoding="async">
+                                            <img class="cs-star"
+                                                    src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/review-star.svg"
+                                                    alt="star" height="24" width="24" loading="lazy" decoding="async">
+                                            <img class="cs-star"
+                                                    src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/review-star.svg"
+                                                    alt="star" height="24" width="24" loading="lazy" decoding="async">
+                                        </div>
+                                    </div>
+                                    <button class="cs-buy">
+                                        <img src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Icons/ecomm-bag-icon.svg"
+                                                alt="buy" height="24" width="24" loading="lazy" decoding="async">
+                                    </button>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="cs-item">
+                        <a href="" class="cs-link">
+                            <div class="cs-picture-group">
+                                <picture class="cs-picture">
+                                    <source media="(max-width: 600px)"
+                                            srcset="images/jj-ecc81-12at7.webp">
+                                    <source media="(min-width: 601px)"
+                                            srcset="images/jj-ecc81-12at7.webp">
+                                    <img loading="lazy" decoding="async"
+                                            src="images/jj-ecc81-12at7.webp"
+                                            alt="gallery" width="305" height="400">
+                                </picture>
+                            </div>
+                            <div class="cs-details">
+                                <span class="cs-category">Top Rating</span>
+                                <h3 class="cs-name">JJ ELECTRONIC ECC81 12AT7</h3>
+                                <div class="cs-actions">
+                                    <div class="cs-flex">
+                                        <span class="cs-price">$50.00</span>
+                                        <div class="cs-stars">
+                                            <img class="cs-star"
+                                                    src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/review-star.svg"
+                                                    alt="star" height="24" width="24" loading="lazy" decoding="async">
+                                            <img class="cs-star"
+                                                    src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/review-star.svg"
+                                                    alt="star" height="24" width="24" loading="lazy" decoding="async">
+                                            <img class="cs-star"
+                                                    src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/review-star.svg"
+                                                    alt="star" height="24" width="24" loading="lazy" decoding="async">
+                                            <img class="cs-star"
+                                                    src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/review-star.svg"
+                                                    alt="star" height="24" width="24" loading="lazy" decoding="async">
+                                        </div>
+                                    </div>
+                                    <button class="cs-buy">
+                                        <img src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Icons/ecomm-bag-icon.svg"
+                                                alt="buy" height="24" width="24" loading="lazy" decoding="async">
+                                    </button>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <!--Listing 3-->
+                <div class="cs-listing cs-hidden" data-category="three">
+                    <div class="cs-item">
+                        <a href="" class="cs-link">
+                            <div class="cs-picture-group">
+                                <picture class="cs-picture">
+                                    <source media="(max-width: 600px)"
+                                            srcset="images/jj-ecc81-12at7.webp">
+                                    <source media="(min-width: 601px)"
+                                            srcset="images/jj-ecc81-12at7.webp">
+                                    <img loading="lazy" decoding="async"
+                                            src="images/jj-ecc81-12at7.webp"
+                                            alt="gallery" width="305" height="400">
+                                </picture>
+                            </div>
+                            <div class="cs-details">
+                                <span class="cs-category">Best Seller</span>
+                                <h3 class="cs-name">JJ ELECTRONIC ECC81 12AT7</h3>
+                                <div class="cs-actions">
+                                    <div class="cs-flex">
+                                        <span class="cs-price">$50.00</span>
+                                        <div class="cs-stars">
+                                            <img class="cs-star"
+                                                    src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/review-star.svg"
+                                                    alt="star" height="24" width="24" loading="lazy" decoding="async">
+                                            <img class="cs-star"
+                                                    src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/review-star.svg"
+                                                    alt="star" height="24" width="24" loading="lazy" decoding="async">
+                                            <img class="cs-star"
+                                                    src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/review-star.svg"
+                                                    alt="star" height="24" width="24" loading="lazy" decoding="async">
+                                            <img class="cs-star"
+                                                    src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/review-star.svg"
+                                                    alt="star" height="24" width="24" loading="lazy" decoding="async">
+                                        </div>
+                                    </div>
+                                    <button class="cs-buy">
+                                        <img src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Icons/ecomm-bag-icon.svg"
+                                                alt="buy" height="24" width="24" loading="lazy" decoding="async">
+                                    </button>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="cs-item">
+                        <a href="" class="cs-link">
+                            <div class="cs-picture-group">
+                                <picture class="cs-picture">
+                                    <source media="(max-width: 600px)"
+                                            srcset="images/genalex-gold-lion-12au7-ecc82.webp">
+                                    <source media="(min-width: 601px)"
+                                            srcset="images/genalex-gold-lion-12au7-ecc82.webp">
+                                    <img loading="lazy" decoding="async"
+                                            src="images/genalex-gold-lion-12au7-ecc82.webp"
+                                            alt="gallery" width="305" height="400">
+                                </picture>
+                                <span class="cs-offer">-30%</span>
+                            </div>
+                            <div class="cs-details">
+                                <span class="cs-category">Best Seller</span>
+                                <h3 class="cs-name">Genalex Gold Lion 12AU7 ECC82</h3>
+                                <div class="cs-actions">
+                                    <div class="cs-flex">
+                                        <span class="cs-price">$85.50</span>
+                                        <span class="cs-was-price">$125.00</span>
+                                        <div class="cs-stars">
+                                            <img class="cs-star"
+                                                    src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/review-star.svg"
+                                                    alt="star" height="24" width="24" loading="lazy" decoding="async">
+                                            <img class="cs-star"
+                                                    src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/review-star.svg"
+                                                    alt="star" height="24" width="24" loading="lazy" decoding="async">
+                                            <img class="cs-star"
+                                                    src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/review-star.svg"
+                                                    alt="star" height="24" width="24" loading="lazy" decoding="async">
+                                            <img class="cs-star"
+                                                    src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/review-star.svg"
+                                                    alt="star" height="24" width="24" loading="lazy" decoding="async">
+                                            <img class="cs-star"
+                                                    src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/review-star.svg"
+                                                    alt="star" height="24" width="24" loading="lazy" decoding="async">
+                                        </div>
+                                    </div>
+                                    <button class="cs-buy">
+                                        <img src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Icons/ecomm-bag-icon.svg"
+                                                alt="buy" height="24" width="24" loading="lazy" decoding="async">
+                                    </button>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="cs-item">
+                        <a href="" class="cs-link">
+                            <div class="cs-picture-group">
+                                <picture class="cs-picture">
+                                    <source media="(max-width: 600px)"
+                                            srcset="images/tung-sol-12ax7.webp">
+                                    <source media="(min-width: 601px)"
+                                            srcset="images/tung-sol-12ax7.webp">
+                                    <img loading="lazy" decoding="async"
+                                            src="images/tung-sol-12ax7.webp"
+                                            alt="gallery" width="305" height="400">
+                                </picture>
+                                <span class="cs-offer">-25%</span>
+                            </div>
+                            <div class="cs-details">
+                                <span class="cs-category">Best Seller</span>
+                                <h3 class="cs-name">TUNG SOL 12AX7</h3>
+                                <div class="cs-actions">
+                                    <div class="cs-flex">
+                                        <span class="cs-price">$55.00</span>
+                                        <span class="cs-was-price">$75.00</span>
+                                        <div class="cs-stars">
+                                            <img class="cs-star"
+                                                    src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/review-star.svg"
+                                                    alt="star" height="24" width="24" loading="lazy" decoding="async">
+                                            <img class="cs-star"
+                                                    src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/review-star.svg"
+                                                    alt="star" height="24" width="24" loading="lazy" decoding="async">
+                                            <img class="cs-star"
+                                                    src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/review-star.svg"
+                                                    alt="star" height="24" width="24" loading="lazy" decoding="async">
+                                            <img class="cs-star"
+                                                    src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/review-star.svg"
+                                                    alt="star" height="24" width="24" loading="lazy" decoding="async">
+                                            <img class="cs-star"
+                                                    src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/review-star.svg"
+                                                    alt="star" height="24" width="24" loading="lazy" decoding="async">
+                                        </div>
+                                    </div>
+                                    <button class="cs-buy">
+                                        <img src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Icons/ecomm-bag-icon.svg"
+                                                alt="buy" height="24" width="24" loading="lazy" decoding="async">
+                                    </button>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="cs-item">
+                        <a href="" class="cs-link">
+                            <div class="cs-picture-group">
+                                <picture class="cs-picture">
+                                    <source media="(max-width: 600px)"
+                                            srcset="images/mullard-12at7-ecc81.webp">
+                                    <source media="(min-width: 601px)"
+                                            srcset="images/mullard-12at7-ecc81.webp">
+                                    <img loading="lazy" decoding="async"
+                                            src="images/mullard-12at7-ecc81.webp"
+                                            alt="gallery" width="305" height="400">
+                                </picture>
+                                <span class="cs-offer">-3%</span>
+                            </div>
+                            <div class="cs-details">
+                                <span class="cs-category">Best Seller</span>
+                                <h3 class="cs-name">MULLARD 12AT7 ECC81</h3>
+                                <div class="cs-actions">
+                                    <div class="cs-flex">
+                                        <span class="cs-price">$90.00</span>
+                                        <span class="cs-was-price">$92.00</span>
+                                        <div class="cs-stars">
+                                            <img class="cs-star"
+                                                    src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/review-star.svg"
+                                                    alt="star" height="24" width="24" loading="lazy" decoding="async">
+                                            <img class="cs-star"
+                                                    src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/review-star.svg"
+                                                    alt="star" height="24" width="24" loading="lazy" decoding="async">
+                                            <img class="cs-star"
+                                                    src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/review-star.svg"
+                                                    alt="star" height="24" width="24" loading="lazy" decoding="async">
+                                            <img class="cs-star"
+                                                    src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/review-star.svg"
+                                                    alt="star" height="24" width="24" loading="lazy" decoding="async">
+                                            <img class="cs-star"
+                                                    src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/review-star.svg"
+                                                    alt="star" height="24" width="24" loading="lazy" decoding="async">
+                                        </div>
+                                    </div>
+                                    <button class="cs-buy">
+                                        <img src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Icons/ecomm-bag-icon.svg"
+                                                alt="buy" height="24" width="24" loading="lazy" decoding="async">
+                                    </button>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="cs-item">
+                        <a href="" class="cs-link">
+                            <div class="cs-picture-group">
+                                <picture class="cs-picture">
+                                    <source media="(max-width: 600px)"
+                                            srcset="images/electro-harmonix-12ax7.webp">
+                                    <source media="(min-width: 601px)"
+                                            srcset="images/electro-harmonix-12ax7.webp">
+                                    <img loading="lazy" decoding="async"
+                                            src="images/electro-harmonix-12ax7.webp"
+                                            alt="gallery" width="305" height="400">
+                                </picture>
+                                <span class="cs-offer">-50%</span>
+                            </div>
+                            <div class="cs-details">
+                                <span class="cs-category">Best Seller</span>
+                                <h3 class="cs-name">ELECTRO HARMONIX 12AX7</h3>
+                                <div class="cs-actions">
+                                    <div class="cs-flex">
+                                        <span class="cs-price">$30.00</span>
+                                        <span class="cs-was-price">$60.00</span>
+                                        <div class="cs-stars">
+                                            <img class="cs-star"
+                                                    src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/review-star.svg"
+                                                    alt="star" height="24" width="24" loading="lazy" decoding="async">
+                                            <img class="cs-star"
+                                                    src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/review-star.svg"
+                                                    alt="star" height="24" width="24" loading="lazy" decoding="async">
+                                            <img class="cs-star"
+                                                    src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/review-star.svg"
+                                                    alt="star" height="24" width="24" loading="lazy" decoding="async">
+                                            <img class="cs-star"
+                                                    src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/review-star.svg"
+                                                    alt="star" height="24" width="24" loading="lazy" decoding="async">
+                                            <img class="cs-star"
+                                                    src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/review-star.svg"
+                                                    alt="star" height="24" width="24" loading="lazy" decoding="async">
+                                        </div>
+                                    </div>
+                                    <button class="cs-buy">
+                                        <img class="cs-basket"
+                                                src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Icons/ecomm-bag-icon.svg"
+                                                alt="buy" height="24" width="24" loading="lazy" decoding="async">
+                                    </button>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="cs-item">
+                        <a href="" class="cs-link">
+                            <div class="cs-picture-group">
+                                <picture class="cs-picture">
+                                    <source media="(max-width: 600px)"
+                                            srcset="images/genalex-gold-lion-12at7-ecc81-b739.webp">
+                                    <source media="(min-width: 601px)"
+                                            srcset="images/genalex-gold-lion-12at7-ecc81-b739.webp">
+                                    <img loading="lazy" decoding="async"
+                                            src="images/genalex-gold-lion-12at7-ecc81-b739.webp"
+                                            alt="gallery" width="305" height="400">
+                                </picture>
+                            </div>
+                            <div class="cs-details">
+                                <span class="cs-category">Best Seller</span>
+                                <h3 class="cs-name">Genalex Gold Lion 12AT7 ECC81 B739</h3>
+                                <div class="cs-actions">
+                                    <div class="cs-flex">
+                                        <span class="cs-price">$80.00</span>
+                                        <div class="cs-stars">
+                                            <img class="cs-star"
+                                                    src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/review-star.svg"
+                                                    alt="star" height="24" width="24" loading="lazy" decoding="async">
+                                            <img class="cs-star"
+                                                    src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/review-star.svg"
+                                                    alt="star" height="24" width="24" loading="lazy" decoding="async">
+                                            <img class="cs-star"
+                                                    src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/review-star.svg"
+                                                    alt="star" height="24" width="24" loading="lazy" decoding="async">
+                                            <img class="cs-star"
+                                                    src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/review-star.svg"
+                                                    alt="star" height="24" width="24" loading="lazy" decoding="async">
+                                            <img class="cs-star"
+                                                    src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/review-star.svg"
+                                                    alt="star" height="24" width="24" loading="lazy" decoding="async">
+                                        </div>
+                                    </div>
+                                    <button class="cs-buy">
+                                        <img src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Icons/ecomm-bag-icon.svg"
+                                                alt="buy" height="24" width="24" loading="lazy" decoding="async">
+                                    </button>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- ============================================ -->
+    <!--                  Services                    -->
+    <!-- ============================================ -->
+
+    <section id="services-1121">
+        <div class="cs-container">
+            <ul class="cs-card-group">
+                <li class="cs-item">
+                    <div class="cs-image-group">
+                        <img class="cs-icon" loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons/charity-yellow1.svg" alt="icon" width="48" height="48">
+                        <!--If you want to remove this background shape, add a background color to the cs-image-group so it will look good. Otherwise remove the height an width from that group so there's no extra space around the icon-->
+                        <img class="cs-graphic" loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons/grey-shape.svg" alt="shape" width="48" height="48">
+                    </div>
+                    <div class="cs-flex">
+                        <h2 class="cs-h2">Largest Collection</h2>
+                        <p class="cs-item-text">
+                            Australia's largest range of Vacuum Tubes and Thermionic Valves
+                        </p>
+                    </div>
+                </li>
+                <li class="cs-item">
+                    <div class="cs-image-group">
+                        <img class="cs-icon" loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons/charity-yellow2.svg" alt="icon" width="48" height="48">
+                        <img class="cs-graphic" loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons/grey-shape.svg" alt="shape" width="48" height="48">
+                    </div>
+                    <div class="cs-flex">
+                        <h2 class="cs-h2">Check out ebay</h2>
+                        <p class="cs-item-text">
+                            Check out our valves on ebay. We have the largest range of vacuum tubes in Australia
+                        </p>
+                    </div>
+                </li>
+                <li class="cs-item">
+                    <div class="cs-image-group">
+                        <img class="cs-icon" loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons/charity-yellow3.svg" alt="icon" width="48" height="48">
+                        <img class="cs-graphic" loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons/grey-shape.svg" alt="shape" width="48" height="48">
+                    </div>
+                    <div class="cs-flex">
+                        <h2 class="cs-h2">Appointment Only</h2>
+                        <p class="cs-item-text">
+                            Consultations / order pickups are strictly by appointment only.
+                        </p>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <!--SVG Waves-->
+        <img class="cs-waves" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons/charity-waves.svg" alt="waves" aria-hidden="true" loading="lazy" decoding="async" width="1920" height="616">
+    </section>
+                        
+    
+    <!-- ============================================ -->
+    <!--                  Reviews                     -->
+    <!-- ============================================ -->
+
+    <section id="reviews-566">
+        <div class="cs-container">
+            <div class="cs-content">
+                <span class="cs-topper">Our Reviews</span>
+                <h2 class="cs-title">Facebook Review</h2>
+            </div>
+            <ul class="cs-card-group">
+                <li class="cs-item">
+                    <!--Blue Quote-->
+                    <img class="cs-stars" aria-hidden="true" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Reviews/stars3.svg" decoding="async" alt="quote icon" width="189" height="24">
+                    <p class="cs-item-text">
+                        I recently inherited an older style Valve amplifier which was not working the team serviced the amplifier, replaced the non serviceable valves and ordered very rare parts.
+                        <br>
+                        Excellent service
+                        <br>
+                        Very reasonable pricing
+                        <br>
+                        Thanks team!
+                    </p>
+                    <div class="cs-flex-group">
+                        <picture class="cs-picture">
+                            <img class="cs-profile" src="images/profile-pic.webp" decoding="async" alt="profile" width="50" height="50" aria-hidden="true">
+                        </picture>
+                        <span class="cs-name">
+                            Kevin Patterson
+                            <span class="cs-job">@kevin.pat</span>
+                        </span>
+                    </div>
+                </li>
+                <li class="cs-item">
+                    <!--Blue Quote-->
+                    <img class="cs-stars" aria-hidden="true" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Reviews/stars3.svg" decoding="async" alt="quote icon" width="189" height="24">
+                    <p class="cs-item-text">
+                        Amazing Guy, whose understanding of Vavles is amazing & his Tech knowledge of electronics as well ,.Is honest, Trustworthy!!! & great to deal with.
+                    </p>
+                    <div class="cs-flex-group">
+                        <picture class="cs-picture">
+                            <img class="cs-profile" src="images/profile-pic-2.webp" decoding="async" alt="profile" width="50" height="50" aria-hidden="true">
+                        </picture>
+                        <span class="cs-name">
+                            Stephen Bugden
+                            <span class="cs-job">@stephen.bugden.12</span>
+                        </span>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    
+    <!-- ============================================ -->
+    <!--                Contact Form                  -->
+    <!-- ============================================ -->
+
+    <section id="cs-contact-242">
+        <div class="cs-container">
+            <div class="cs-content">
+                <span class="cs-topper">Here To Help</span>
+                <h2 class="cs-title">Contact Us</h2>
+            </div>
+            <!-- Form -->
+            <form id="cs-form-242" name="Contact Form" method="post">
+                <label class="cs-label">
+                    Name
+                    <input class="cs-input" required type="text" id="name-242" name="name" placeholder="John/Jane Doe">
+                </label>
+                <label class="cs-label">
+                    Email
+                    <input class="cs-input" required type="text" id="email-242" name="email" placeholder="name@company.com">
+                </label>
+                <label class="cs-label">
+                    Phone
+                    <input class="cs-input" required type="text" id="phone-242" name="phone" placeholder="+1 (206) 987-6543">
+                </label>
+                <label class="cs-label">
+                    How Did You Find Us
+                    <input class="cs-input" type="text" id="find-242" name="find-us" placeholder="Social Media, Family, Friend...">
+                </label>
+                <label class="cs-label cs-label-message">
+                    Message
+                    <textarea class="cs-input cs-textarea" required name="Message" id="message-242" placeholder="Hello, I’m interested in..."></textarea>
+                </label>
+                <button class="cs-button-solid cs-submit" type="submit">Submit Message Now</button>
+            </form>
+            <!-- Contact Info -->
+            <div class="cs-right-section">
+                <ul class="cs-ul">
+                    <li class="cs-li">
+                        <picture class="cs-icon-wrapper">
+                            <img aria-hidden="true" src="https://csimg.nyc3.digitaloceanspaces.com/Contact-Page/mail.svg" alt="mail icon" class="cs-icon" width="36" height="36" decoding="async">
+                        </picture>
+                        <div class="cs-flex-group">
+                            <span class="cs-header">Email</span>
+                            <a href="mailto:neil@thevalvestore.com.au" class="cs-link">neil@thevalvestore.com.au</a>
+                        </div>
+                    </li>
+                    <li class="cs-li">
+                        <picture class="cs-icon-wrapper">
+                            <img aria-hidden="true" src="https://csimg.nyc3.digitaloceanspaces.com/Contact-Page/phone.svg" alt="phone icon" class="cs-icon" width="36" height="36" decoding="async">
+                        </picture>
+                        <div class="cs-flex-group">
+                            <span class="cs-header">Phone</span>
+                            <a href="tel:0482176767" class="cs-link">(04) 8217-6767</a>
+                        </div>
+                    </li>
+                    <li class="cs-li">
+                        <picture class="cs-icon-wrapper">
+                            <img aria-hidden="true" src="https://csimg.nyc3.digitaloceanspaces.com/Contact-Page/pin.svg" alt="address icon" class="cs-icon" width="36" height="36" decoding="async">
+                        </picture>
+                        <div class="cs-flex-group">
+                            <span class="cs-header">Address</span>
+                            <a href="https://maps.app.goo.gl/Hf6rz7EF4cKURgTn8" class="cs-link" target="_blank"><span class="cs-block">4/65 Talbot Road,</span> Mount Waverley VIC 3149</a>
+                        </div>
+                    </li>
+                </ul>
+                <!-- Picture -->
+                <picture class="cs-picture">
+                    <source media="(max-width: 600px)" srcset="images/the-vale-map.webp">
+                    <source media="(min-width: 601px)" srcset="images/the-vale-map.webp">
+                    <img class="cs-img" aria-hidden="true" loading="lazy" decoding="async" src="images/the-vale-map.webp" alt="google map" width="462" height="438">
+                </picture>
+            </div>
+        </div>
+    </section>
+
+
+    <!--                   Footer                     -->
+    <!-- ============================================ -->
+
+    <footer id="cs-footer-308">
+        <div class="cs-container">
+            <!-- Links -->
+            <ul class="cs-nav">
+                <li class="cs-nav-li">
+                    <span class="cs-header">Sitemap</span>
+                </li>
+                <li class="cs-nav-li">
+                    <a class="cs-nav-link" href="">Home</a>
+                </li>
+                <li class="cs-nav-li">
+                    <a class="cs-nav-link" href="">About Us</a>
+                </li>
+                <li class="cs-nav-li">
+                    <a class="cs-nav-link" href="">Products</a>
+                </li>
+                <li class="cs-nav-li">
+                    <a class="cs-nav-link" href="">Contact</a>
+                </li>
+            </ul>
+            <!-- Contact Info -->
+            <ul class="cs-nav">
+                <li class="cs-nav-li">
+                    <span class="cs-header">Contact</span>
+                </li>
+                <li class="cs-nav-li">
+                    <img class="cs-icon" aria-hidden="true" loading="lazy" decoding="async" src="https://csimg.nyc3.digitaloceanspaces.com/Contact-Page/pin-stroke.svg" alt="pin" width="24" height="24">
+                    <a class="cs-nav-link cs-address" href="" target="_blank" rel="noopener">
+                        The Valve Store, 4/65 Talbot Road<br> Mount Waverley, VIC 3149
+                    </a>
+                </li>
+                <li class="cs-nav-li">
+                    <img class="cs-icon" aria-hidden="true" loading="lazy" decoding="async" src="https://csimg.nyc3.digitaloceanspaces.com/Contact-Page/phone-stroke.svg" alt="phone" width="24" height="24">
+                    <a class="cs-nav-link cs-phone" href="tel:0482176767">(04) 8217-6767</a>
+                </li>
+                <li class="cs-nav-li">
+                    <img class="cs-icon" aria-hidden="true" loading="lazy" decoding="async" src="https://csimg.nyc3.digitaloceanspaces.com/Contact-Page/email-stroke.svg" alt="email" width="24" height="24">
+                    <a class="cs-nav-link cs-email" href="mailto:neil@thevalvestore.com.au">neil@thevalvestore.com.au</a>
+                </li>
+            </ul>
+        </div>
+        <div class="cs-bottom">
+            <span class="cs-copyright">© Copyright 2024 - <a class="cs-copyright-link" href="">The Valve Store.</a>  All Rights Reserved<br>Powered by <a class="cs-copyright-link" href="https://codestitch.app/app">CodeStitch</a></span>
+        </div>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
