@@ -88,4 +88,30 @@ const dropDowns = Array.from(document.querySelectorAll('#cs-navigation .cs-dropd
     }
 
     new GalleryFilter();
-                                
+
+let backToTopButton = document.getElementById("back-to-top");
+
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {
+    scrollFunction();
+};
+
+function scrollFunction() {
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        backToTopButton.style.display = "block";
+    } else {
+        backToTopButton.style.display = "none";
+    }
+}
+
+// When the user clicks on the button, scroll to the top of the document smoothly
+backToTopButton.onclick = function() {
+    scrollToTop();
+};
+
+function scrollToTop() {
+    window.scrollTo({
+        top: 0,
+        behavior: "smooth"
+    });
+}
